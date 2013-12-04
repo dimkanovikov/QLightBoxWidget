@@ -11,7 +11,6 @@ DemoWidget::DemoWidget(QWidget* _parent) :
 	QWidget(_parent)
 {
 	QLightBoxWidget* lightBox = new QLightBoxWidget(this);
-//	lightBox->hide();
 
 	// Настраиваем главный виджет
 	QLabel* text = new QLabel("Some information in <b>html</b> format<br/>"
